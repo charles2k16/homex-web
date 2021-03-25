@@ -6,9 +6,7 @@ body{
 	line-height: 28px;
 	overflow-x: hidden;
 }
-#myChart {
-  height:400px;
-}
+
 p{
 	margin-bottom: 0px
 }
@@ -27,8 +25,9 @@ select{
 select::-ms-expand {
   display: none;
 }
-a{
+a {
 	cursor: pointer;
+  color: rgb(58, 57, 57);
 	display: block;
 	font-family: 'Montserrat', sans-serif;
   font-weight: 400;
@@ -37,6 +36,7 @@ a:hover,a:focus,a.active,
 .btn-primary:focus{
 	text-decoration: none !important;
 	box-shadow: none !important;
+  color: #fd9834;
 }
 .btn:focus,.btn:active {
    outline: none !important;
@@ -101,7 +101,7 @@ button, select{
 	border: none
 }
 section{
-	padding: 80px 0px;
+	padding: 50px 0px;
 }
 *, ::after, ::before{
 	 outline: none !important;
@@ -210,31 +210,7 @@ textarea.form-control{
 .shadow-white{
   box-shadow: 0px 10px 30px 0px rgba(255, 255, 255, 0.2)
 }
-/* Flat Icon Size
---------------------------------------------*/
-.flat-big [class^="flaticon-"]:before,
-.icon-font-big i{
-  font-size: 130px;
-}
-.flat-large [class^="flaticon-"]:before,
-.icon-font-large i{
-	font-size: 60px;
-}
-.flat-medium [class^="flaticon-"]:before,
-.icon-font-medium i{
-	font-size: 45px;
-}
-.flat-small [class^="flaticon-"]:before,
-.icon-font-small i{
-  font-size: 36px;
-}
-[class^="flaticon-"]:before,
-[class*=" flaticon-"]:before{
-  margin-left: 0px !important;
-}
-.form-radius-30 .form-control{
-	border-radius: 30px
-}
+
 /*  Overlay CSS
 --------------------------------------------*/
 [class*="overlay-"],
@@ -279,22 +255,7 @@ textarea.form-control{
 .shadow-none, .shadow-none:hover{
   box-shadow: none !important;
 }
-/* Back to top
---------------------------------------------*/
-#scroll{
-    position: fixed;
-    right: 30px;
-    bottom: 50px;
-    width: 40px;
-    height: 40px;
-    line-height: 40px;
-    text-align: center;
-    z-index: 9999;
-    cursor: pointer;
-    display: none;
-}
-/* 02.  Default Margin & Padding CSS
-=======================================================*/
+
 /* Default Padding
 -------------------------*/
 .pb-100{
@@ -1307,34 +1268,12 @@ transform:translateY(7px) rotate(45deg);
   z-index: 111;
   width: 60px;
 }
-
-.formicon .checkbox_collapse[aria-expanded="false"]:after{
-    content: "\f107";
-    position: absolute;
-    top: 0;
-    left: 0;
-    font-family: "FontAwesome";
-    width: 60px;
-    height: 60px;
-    line-height: 70px;
-    font-size: 42px;
-    text-align: center;
-    z-index: -1;
-    border-radius: 0 0 50% 50%;
+.flex-justify-between {
+  display: flex;
+  justify-content: space-between;
 }
-.formicon .checkbox_collapse:after{
-    content: "\f106";
-    position: absolute;
-    top: 0;
-    left: 0;
-    font-family: "FontAwesome";
-    width: 60px;
-    height: 60px;
-    line-height: 60px;
-    font-size: 42px;
-    text-align: center;
-    z-index: -1;
-    border-radius: 0 0 50% 50%;
+.full-width {
+  
 }
 .card{
   border-radius: 0;

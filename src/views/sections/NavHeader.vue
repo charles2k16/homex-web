@@ -44,16 +44,15 @@
                       >
                     </li>
 
-                    <li>
-                      <a class="dropdown-item" href="property_listing.html"
-                        >Properties
-                      </a>
-                    </li>
-
                     <li class="nav-item">
-                      <a class="nav-link" href="requet_property.html"
-                        >Request Property</a
-                      >
+                      <router-link to="/properties">
+                        <a class="nav-link">Properties</a>
+                      </router-link>
+                    </li>
+                    <li class="nav-item">
+                      <router-link to="/properties">
+                        <a class="nav-link">Request Property</a>
+                      </router-link>
                     </li>
                   </ul>
                 </div>

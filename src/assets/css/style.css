@@ -1515,7 +1515,7 @@ transform:translateY(7px) rotate(45deg);
   margin-right: 7px
 }
 .property-cost {
-  position: absolute;
+  position: relative;
   left: 0;
   bottom: 0
 }
@@ -1873,6 +1873,10 @@ transform:translateY(7px) rotate(45deg);
 }
 /* 24. Team Css
 =======================================================*/
+.service-item {
+  width: 450px !important;
+  margin-right: 10px;
+}
 .agent-agency{
   bottom: 20px;
   right: 20px;
